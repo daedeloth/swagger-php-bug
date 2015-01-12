@@ -1,0 +1,7 @@
+{
+  "name": "catlabinteractive/swagger-php-bug",
+
+  "require-dev": {
+	"zircote/swagger-php" : "*"
+  }
+}

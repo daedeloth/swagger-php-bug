@@ -1,0 +1,51 @@
+{
+    "swaggerVersion": "1.2",
+    "apiVersion": "1.0",
+    "resourcePath": "/animals",
+    "apis": [
+        {
+            "path": "/animals/cats",
+            "description": "Operations on cats",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Return a round",
+                    "nickname": "get",
+                    "type": "Cat"
+                }
+            ]
+        },
+        {
+            "path": "/animals/mammals",
+            "description": "Operations on mammals",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Return a round",
+                    "nickname": "get",
+                    "type": "Mammal"
+                }
+            ]
+        }
+    ],
+    "models": {
+        "Cat": {
+            "id": "Cat",
+            "description": "Class Cat",
+            "properties": {
+                "brand": {
+                    "type": "string"
+                }
+            }
+        },
+        "Mammal": {
+            "id": "Mammal",
+            "description": "Class Mammal",
+            "properties": {
+                "family": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
